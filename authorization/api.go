@@ -3,8 +3,8 @@ package authorization
 import (
 	"net/http"
 
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/go-plugins-helpers/sdk"
+	"github.com/docker/ranjithamca/pkg/authorization"
+	"github.com/ranjithamca/go-plugins-helpers/sdk"
 )
 
 const (

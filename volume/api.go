@@ -3,12 +3,12 @@ package volume
 import (
 	"net/http"
 
-	"github.com/docker/go-plugins-helpers/sdk"
+	"github.com/ranjithamca/go-plugins-helpers/sdk"
 )
 
 const (
 	// DefaultDockerRootDirectory is the default directory where volumes will be created.
-	DefaultDockerRootDirectory = "/var/lib/docker/volumes"
+	DefaultDockerRootDirectory = "/var/lib/docker-volumes"
 
 	manifest         = `{"Implements": ["VolumeDriver"]}`
 	createPath       = "/VolumeDriver.Create"

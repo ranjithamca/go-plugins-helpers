@@ -3,7 +3,7 @@ package ipam
 import (
 	"net/http"
 
-	"github.com/docker/go-plugins-helpers/sdk"
+	"github.com/ranjithamca/go-plugins-helpers/sdk"
 )
 
 const (

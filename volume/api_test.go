@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/go-connections/sockets"
+	"github.com/ranjithamca/go-connections/sockets"
 )
 
 func TestHandler(t *testing.T) {

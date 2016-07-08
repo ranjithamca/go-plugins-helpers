@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/go-connections/sockets"
+	"github.com/ranjithamca/go-connections/sockets"
 )
 
 const (
